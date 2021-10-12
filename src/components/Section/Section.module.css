@@ -1,0 +1,9 @@
+.section {
+  width: 1080px;
+  margin: 0 auto;
+}
+
+.section__title {
+  text-align: center;
+  text-transform: uppercase;
+}

@@ -1,0 +1,27 @@
+.feedbacks {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+.feedbacks__item:not(:last-child) {
+  margin-right: 10px;
+}
+
+.feedbacks__btn {
+  border: none;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  font-weight: 700;
+  padding: 10px 20px;
+  background-color: #2379c0;
+  color: #ffffff;
+  cursor: pointer;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.feedbacks__btn:hover {
+  transform: scale(1.15);
+  background-color: #3da6fc;
+}
