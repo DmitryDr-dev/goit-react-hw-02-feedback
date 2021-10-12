@@ -15,8 +15,6 @@ class App extends Component {
   };
 
   onClickHandler = grade => {
-    console.log(grade);
-
     this.setState(prevState => {
       return {
         [grade]: prevState[grade] + 1,
